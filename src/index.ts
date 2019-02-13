@@ -1,8 +1,3 @@
-export class OlaMundo{
+import {Controller} from './pizzaria/controller';
 
-    public run(){
-        console.log('Olá mundo')
-    }
-}
-
-new OlaMundo().run();
+new Controller().fazerPedido();
