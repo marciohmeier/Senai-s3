@@ -5,6 +5,7 @@ export class Pergunta {
   private message :string = '';
   private defaultChoice :number = 0;
   private choices :Array<string> = [];
+  private teste :Array<string> = [];
 
 
   constructor(name:any, type:any, message:any, defaultChoice:any, choices:Array<string>){
