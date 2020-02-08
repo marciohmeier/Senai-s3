@@ -8,5 +8,6 @@ export class Controller {
 
     pedidoController.fazerPedido()
     pedidoController.imprimirRelatorio()
+    pedidoController.imprimirRelatorio()
   }
 }
